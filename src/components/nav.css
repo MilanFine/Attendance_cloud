@@ -1,0 +1,15 @@
+.nav-container{
+    min-height: 3vh;
+    background-color: #eef0f2;
+    padding: 2vh;
+    font-family: 'Inter', 'sans-serif';
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #1c1c1c;
+}
+
+.nav-container a{
+    text-decoration: none;
+    color: #1c1c1c;
+}

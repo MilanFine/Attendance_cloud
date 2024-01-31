@@ -1,0 +1,49 @@
+.card-container{
+    min-height: 400px;
+    width: 300px;
+    background-color: #ecebe46e;
+    border-radius: 10px;
+    display: flex;
+    margin-bottom: 50px;
+    align-items: center;
+    flex-direction: column;
+    gap: 50px;
+    font-size: 30px;
+    position: relative;
+}
+
+.card-container img{
+    height: 200px;
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+}
+
+.completed{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.completed img{
+    width: 30px;
+    height: 30px;
+}
+
+.game-name{
+    
+    text-align: center;
+}
+.delete{
+    position: absolute;
+    margin: 10px 0px;
+    left: 5px;
+    top: 150px;
+    background-color: red;
+    padding: 5px;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
